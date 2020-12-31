@@ -6,10 +6,6 @@ export const PixContainer = styled.div`
   padding: 40px 0;
 `;
 
-export const Title = styled.h1`
-  color: ${colors.white};
-`;
-
 export const PixExample = styled.img`
   width: 190px;
   margin: 30px 0;

@@ -1,5 +1,6 @@
-import { PixContainer, Title, PixExample, Card, CardTitle, Input, Button } from './styles';
-import Link from '../Link/index';
+import { PixContainer, PixExample, Card, CardTitle, Input, Button } from './styles';
+import Title from '../../components/Title/index';
+import Link from '../../components/Link/index';
 import pixMobile from './pix-mobile.png';
 
 
@@ -9,7 +10,7 @@ const Pix = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<Title>Pix: um novo jeito de fazer transferências e pagamentos</Title>
+						<Title marginSize="10px">Pix: um novo jeito de fazer transferências e pagamentos</Title>
 						<Link href="#" inverted>Saiba como funciona</Link>
 						<div className="text-center">
 							<PixExample src={pixMobile} />

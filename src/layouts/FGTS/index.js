@@ -1,5 +1,6 @@
-import { FGTSContainer, Title, Banner } from './styles';
-import Link from '../Link/index';
+import { FGTSContainer, Banner } from './styles';
+import Title from '../../components/Title/index';
+import Link from '../../components/Link/index';
 import banner from './moça_bonita.jpg';
 
 
@@ -9,7 +10,7 @@ const FGTS = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-s12">
-						<Title>Traga seu FGTS e Auxílio Emergencial para o Nubank</Title>
+						<Title inverted>Traga seu FGTS e Auxílio Emergencial para o Nubank</Title>
 						<Link href="#">Confira os Benefícios</Link>
 					</div>
 				</div>
