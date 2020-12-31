@@ -1,0 +1,9 @@
+
+@font-face {
+	src: local('Graphik-Medium'), url(./fonts/Graphik-Medium.ttf) format('truetype');
+	font-family: 'Graphik-Medium';
+}
+
+* {
+	font-family: 'Graphik-Medium', sans-serif; 
+}
