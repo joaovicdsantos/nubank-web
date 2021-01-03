@@ -3,7 +3,7 @@ import { colors } from '../../tokens';
 
 export const FGTSContainer = styled.div`
 	background-color: ${colors.white};
-	padding: 40px 0;
+	padding: 48px 0;
 `;
 
 export const Banner = styled.img`

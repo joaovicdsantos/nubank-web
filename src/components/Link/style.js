@@ -6,7 +6,7 @@ export const LinkElemen = styled.a`
 	text-decoration: none;
 	font-weight: 500;
 	margin-right: 5px;
-	width: 100%;
+	font-size: 14pt;
 
     &:hover {
         color: ${props => props.inverted ? colors.white : colors.primary};
@@ -16,10 +16,11 @@ export const LinkElemen = styled.a`
 
 export const LinkContainer = styled.div`
 	display: inline-block;	
-	height: 30px;
+	height: 30px;	
 `;
 
 export const Arrow = styled.svg`
 	stroke: ${props => props.inverted ? colors.white : colors.primary};
-	height: 0.9rem;
+	height: 16px;
+	vertical-align: unset;
 `;

@@ -3,7 +3,7 @@ import { colors } from '../../tokens';
 
 export const PixContainer = styled.div`
   background-color: ${colors.primary};
-  padding: 40px 0;
+  padding: 48px 0;
 `;
 
 export const PixExample = styled.img`

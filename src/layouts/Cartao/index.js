@@ -1,4 +1,5 @@
 import { CartaoContainer } from './styles';
+import Content from '../../components/Content';
 import LinkTitle from '../../components/TitleLink';
 import Title from '../../components/Title';
 import Link from '../../components/Link';
@@ -12,11 +13,11 @@ const Cartao = () => {
 		<CartaoContainer>
 			<div className="container">
 				<div className="row">
-					<div className="col-12">
+					<Content>
 						<LinkTitle>Cartão de Crédito</LinkTitle>
 						<Title inverted>Pode chamar ele de roxinho. Além disso, pode chamar ele de moderno, gratuito e prático também.</Title>
 						<Link>Saiba Mais</Link>
-					</div>
+					</Content>
 				</div>
 				<Banner src={ cardOnHand } imgWidth="50%"/>
 			</div>

@@ -1,4 +1,5 @@
 import { ContaContainer } from './styles';
+import Content from '../../components/Content';
 import TitleLink from '../../components/TitleLink';
 import Title from '../../components/Title';
 import Link from '../../components/Link';
@@ -11,11 +12,11 @@ const Conta = () => {
 		<ContaContainer>
 			<div className="container">
 				<div className="row">
-					<div className="col-s12">
+					<Content>
 						<TitleLink>Conta do Nubank</TitleLink>
 						<Title inverted>Nossa conta digital com mais de 20 milhões de clientes em todo o Brasil.</Title>
 						<Link>Segura e sem complicações</Link>
-					</div>
+					</Content>
 				</div>
 			</div>
 			<Banner src={ phone } />

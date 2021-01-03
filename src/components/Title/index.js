@@ -8,4 +8,3 @@ const Title = ({ children, inverted, marginSize }) => {
 }
 
 export default Title;
-

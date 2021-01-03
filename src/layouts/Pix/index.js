@@ -1,6 +1,6 @@
 import { PixContainer, PixExample, Card, CardTitle, Input, Button } from './styles';
-import Title from '../../components/Title/index';
-import Link from '../../components/Link/index';
+import Title from '../../components/Title/';
+import Link from '../../components/Link/';
 import pixMobile from './pix-mobile.png';
 
 
