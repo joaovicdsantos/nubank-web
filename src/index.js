@@ -9,6 +9,7 @@ import Rewards from './layouts/Rewards';
 import Relacao from './layouts/Relacao';
 import NuCommunity from './layouts/NuCommunity';
 import Repensar from './layouts/Repensar';
+import Footer from './layouts/Footer';
 
 
 import './main.css';
@@ -24,6 +25,7 @@ ReactDOM.render(
 		<Relacao />
 		<NuCommunity />
 		<Repensar />
+		<Footer />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
